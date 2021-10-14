@@ -1,0 +1,47 @@
+
+----------------------------------------------------------
+INFORMACIÓN IMPORTANTE ACERCA DE CÓMO EJECUTAR EL PROGRAMA
+----------------------------------------------------------
+
+Este programa ha sido realizado con la intención de realizar el juego de las damas o "checkers" en inglés.
+La idea del programa es que un usuario que lo ejecute pueda jugar a las damas contra la máquina, es decir
+contra la inteligencia artificial.
+
+Sin embargo, tal y como se explica en la presentación y en la documentación, hemos definido dos inteligencias
+artificiales, de manera que la máquina pueda jugar contra sí misma.
+
+Debido a la falta de tiempo, no hemos podido crear un menú que nos de a elegir en qué modalidad queremos
+ejecutar el programa. Por ello habrá que hacerlo manualmente.
+
+El archivo main, que será el ejecutable (ver "ejecución del programa" más adelante), constará de dos
+importantes partes:
+
+1.  Las inteligencias artificiales. Esto es, dos "if statements" en los cuales preguntará si el turno
+    es de las blancas y si lo es, la ia jugará las blancas utilizando el minimax y eso. Lo mismo pasará
+    con el segundo "if statement" que preguntará si el turno es de las negras y jugará con las negras.
+
+    En esta modalidad, los humanos como usuarios no hacen nada. SÓLO ES PARA VER CÓMO LA MÁQUINA JUEGA CONTRA SÍ MISMA
+
+2.  La interacción humano-computadora. Usando los métodos de pygame referentes a los "eventos" del ratón, se
+    podrá jugar con las fichas, moviéndolas y eso. El tema está en que no entrará en estos eventos, a no ser que
+    se comente alguno de los dos "if statements" explicados en el punto 1.
+
+    Si se desea jugar contra la máquina, entonces hay que comentar uno de los "if statements", teniendo en cuenta
+    qué color se elige para la máquina.
+
+    Si se desea jugar con dos jugadores humanos, o un jugador humano para sí mismo, hay que comentar ambos
+    "if statements" de manera que la máquina no juegue nunca.
+
+----------------------
+EJECUCIÓN DEL PROGRAMA
+----------------------
+
+Sólo hay que ejecutar el archivo main.py. Se puede realizar con el siguiente comando en la terminal:
+python main.py
+
+----------
+NOTA FINAL
+----------
+
+Inicialmente está pensado para que el usuario juegue contra las máquina, siendo las blancas la ia, y el humano
+las negras.
